@@ -8,7 +8,7 @@ neutral_score = 0.0
 total_count = 0.0
 
 
-
+# Opens input file and determines polarity score
 with open("input.txt","r") as f:
     for line in f.read().split('\n'):
         text = analyzer.polarity_scores(line)
@@ -22,6 +22,7 @@ with open("input.txt","r") as f:
         total_count +=1
     f.close()
 
+#Writes individual scores to file. 
 with open("sentenceSentiment.txt", "w") as g:
     for sentence in sentences:
         g.write("%s\n" % sentence)
