@@ -9,6 +9,8 @@ My program reads the input file one line at a time and passes that line into the
 
 The final score for this text was a postive sentiment at 48.28%. The negative score ended at roughly 27.59%. And the neutral score ended up at 24.13% This means that overall the sentiment of the text was positive. This was kind of surprising to me given the the first paragraph. I expected it to be pretty neutral in all. 
 
+Need to run pip install vadersentiment to install the required libraries.
+
 Resources:
   Simplifying Sentiment Analysis using VADER in Python (on Social Media Text)  
   https://medium.com/analytics-vidhya/simplifying-social-media-sentiment-analysis-using-vader-in-python-f9e6ec6fc52f
